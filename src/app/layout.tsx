@@ -26,9 +26,7 @@ export default function RootLayout({
       <body className={vazirmatn.className}>
         <HeaderComponent />
         <main>{children}</main>
-        <p className="tagline">
-          سامانه رزرو
-        </p>
+        <p className="tagline">سامانه رزرو</p>
         <FooterComponent />
       </body>
     </html>
