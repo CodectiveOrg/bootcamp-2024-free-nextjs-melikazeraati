@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
-import { Vazirmatn } from 'next/font/google'
+import { Vazirmatn } from "next/font/google";
+
+import HeaderComponent from "@/components/header/header.component";
+import FooterComponent from "@/components/footer/footer.component";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,9 +12,9 @@ export const metadata: Metadata = {
 };
 
 const vazirmatn = Vazirmatn({
-  subsets: ['latin', 'arabic'],
-  display: 'swap',
-})
+  subsets: ["latin", "arabic"],
+  display: "swap",
+});
 
 export default function RootLayout({
   children,
@@ -20,7 +24,10 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body className={vazirmatn.className}>
-        {children}
+        <HeaderComponent />
+        <main>{children}</main>
+        <p className="tagline">سامانه رزرو</p>
+        <FooterComponent />
       </body>
     </html>
   );
