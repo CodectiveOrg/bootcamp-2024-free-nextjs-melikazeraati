@@ -13,10 +13,10 @@
   --color-default-background: var(--color-gray-10);
   --color-default-foreground: var(--color-gray-98);
 
-  --color-primary: hsl(120deg 50% 48%);
-  --color-primary-fade: hsl(120deg 50% 96%);
-  --color-primary-lighter: hsl(120deg 50% 52%);
-  --color-primary-darker: hsl(120deg 50% 44%);
+  --color-primary: hsl(191 97% 48%);
+  --color-primary-fade: hsl(191 97% 96%);
+  --color-primary-lighter: hsl(191 97% 52%);
+  --color-primary-darker: hsl(191 97% 44%);
   --color-primary-opposite: var(--color-gray-10);
 
   --border-radius: 0.875rem;
