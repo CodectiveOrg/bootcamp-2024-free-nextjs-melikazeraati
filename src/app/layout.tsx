@@ -4,6 +4,7 @@ import { Vazirmatn } from "next/font/google";
 import HeaderComponent from "@/components/header/header.component";
 import FooterComponent from "@/components/footer/footer.component";
 
+import "@/styles/typograghy.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
